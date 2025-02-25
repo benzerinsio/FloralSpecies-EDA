@@ -4,7 +4,7 @@
 
 Este repositório tem como objetivo o estudo e a utilização de ferramentas para obter insights e informações valiosas de diversos conjuntos de dados.
 
-[Visualização do Projeto](https://github.com/benzerinsio/EDA_iris_species/blob/main/EDA_Iris.ipynb)
+[Visualização do Projeto](https://github.com/benzerinsio/EDA_iris_species/blob/main/Analise_Especies_Iris.ipynb)
 
 
 ## 🎯 **Objetivo da análise**
