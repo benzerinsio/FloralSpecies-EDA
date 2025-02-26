@@ -1,33 +1,26 @@
-<sub> 📂 Projeto EDA - Análise Exploratória de Dados - Felipe V. Sousa
+# 🪷 Espécies de Flores Iris  
+*Projeto de Análise Exploratória de Dados (EDA) - Felipe V. Sousa*
 
-# 🪻 Espécies de Flores Iris
+Bem-vindo(a)! Este repositório apresenta uma **Análise Exploratória de Dados (EDA)** no conjunto de dados das flores Iris, explorando padrões e aplicando clustering para estimar o número de espécies.
 
-Este repositório tem como objetivo o estudo e a utilização de ferramentas para obter insights e informações valiosas de diversos conjuntos de dados.
+🔗 [Visualizar o Notebook](https://github.com/benzerinsio/FloralSpecies-EDA/blob/main/Analise_Especies_Iris.ipynb)
 
-[Visualização do Projeto](https://github.com/benzerinsio/FloralSpecies-EDA/blob/main/Analise_Especies_Iris.ipynb)
+## 🎯 Objetivo da Análise
 
+Analisar um conjunto de dados com características das flores Iris (comprimento e largura de sépalas e pétalas) para identificar padrões e estimar o número de espécies distintas, usando técnicas exploratórias e clustering, sem depender inicialmente dos rótulos das espécies.
 
-## 🎯 **Objetivo da análise**
+## 📊 Fonte de Dados
 
-Vamos observar um conjunto de dados que representa várias características de diferentes espécies de flores iris, como o tamanho e largura de sépalas e pétalas.
+Os dados provêm de um arquivo CSV disponível publicamente, contendo características das flores Iris. A análise utiliza duas versões: uma sem os nomes das espécies e outra com os rótulos para validação.
 
-Examinando e analisando os dados conseguimos chegar a uma conclusão interessante antes mesmo de verificar o nome das espécies. É possível fazer uma estimativa da quantidade de espécies diferentes apenas com a análise de dados. 
+## 🛠️ Bibliotecas Utilizadas
 
-Aproveite!
-
-
-## 📊 **Fonte de Dados**
-
-Os dados utilizados nessa análise foram baixados da internet e correspondem à um csv possuindo as características das flores iris - um conjunto de dados sem o nome das espécies e depois verificando a análise com o conjunto de dados que contém o nome das espécies.
+- **Pandas**: Manipulação e análise de dados.  
+- **NumPy**: Cálculos numéricos e operações matemáticas.  
+- **Seaborn**: Visualizações estatísticas aprimoradas.  
+- **Matplotlib**: Geração de gráficos e plots.  
+- **Scikit-learn**: Implementação do algoritmo K-Means, cálculo do WCSS e geração de matriz de confusão para validação.
 
 ## 💬 Conclusão
 
-Neste projeto, realizamos uma Análise Exploratória de Dados (EDA) no conjunto de dados Iris, inicialmente desconsiderando o nome das espécies. 
-
-O foco foi explorar e tratar os dados numéricos, aplicando técnicas de clustering para identificar padrões. 
-
-Utilizando o método K-Means, calculamos o WCSS (Within-Cluster Sum of Squares) e aplicamos o método do cotovelo, que sugeriu a existência de 3 clusters distintos. 
-
-Ao validar os resultados com a coluna de espécies, confirmamos que os clusters correspondiam às 3 espécies de Iris presentes no conjunto de dados. 
-
-Este exercício demonstrou a eficácia do clustering não supervisionado em identificar estruturas naturais nos dados, alinhando-se com a classificação real das espécies.
+Este projeto realizou uma **Análise Exploratória de Dados (EDA)** no dataset Iris, inicialmente sem os rótulos das espécies. Usando o algoritmo K-Means e o método do cotovelo (baseado no WCSS), identificamos 3 clusters distintos, que, ao serem validados com os rótulos, corresponderam às 3 espécies reais. O estudo destacou a eficácia do clustering não supervisionado para revelar padrões naturais nos dados.
