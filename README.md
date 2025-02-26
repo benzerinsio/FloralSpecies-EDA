@@ -19,7 +19,7 @@ Os dados provêm de um arquivo CSV disponível publicamente, contendo caracterí
 - **NumPy**: Cálculos numéricos e operações matemáticas.  
 - **Seaborn**: Visualizações estatísticas aprimoradas.  
 - **Matplotlib**: Geração de gráficos e plots.  
-- **Scikit-learn**: Implementação do algoritmo K-Means, cálculo do WCSS e geração de matriz de confusão para validação.
+- **Scikit-learn**: Implementação do algoritmo K-Means e cálculo do WCSS.
 
 ## 💬 Conclusão
 
