@@ -3,7 +3,7 @@
 
 Bem-vindo(a)! Este repositório apresenta uma **Análise Exploratória de Dados (EDA)** no conjunto de dados das flores Iris, explorando padrões e aplicando clustering para estimar o número de espécies.
 
-🔗 [Visualizar o Notebook](https://github.com/benzerinsio/FloralSpecies-EDA/blob/main/Analise_Especies_Iris.ipynb)
+🔗 [Visualizar o Notebook](https://github.com/benzerinsio/FloralSpecies-EDA/blob/main/EDA_iris.ipynb)
 
 ## 🎯 Objetivo da Análise
 
